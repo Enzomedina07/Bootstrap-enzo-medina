@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*css del header */
 header{
     background-color: #C2C7BF;
 }
@@ -27,4 +28,8 @@ header i{
 a{
     text-decoration: none;
     color: #2F0F02
+}
+/*css del main*/
+main{
+    background-color: #2F0F02;
 }

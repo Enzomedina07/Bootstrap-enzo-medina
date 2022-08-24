@@ -44,15 +44,14 @@ a{
     background-size: cover;
     overflow: hidden;
 }
-.call1{
-    color: #C2C7BF;
-    border: 8px solid #304F69;
-    background-color: #2F0F02;
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+.main3{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(../img/manualsandice.jpeg);
 }
-.call2{
+.call{
     color: #C2C7BF;
     border: 8px solid #304F69;
     background-color: #2F0F02;
@@ -80,4 +79,9 @@ footer{
     color: #C2C7BF;
 }
 
+/*css del form*/
+.form-label{
+    color: black;
+    background-color: #C2C7BF;
+}
 

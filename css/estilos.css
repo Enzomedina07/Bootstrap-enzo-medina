@@ -31,5 +31,38 @@ a{
 }
 /*css del main*/
 main{
-    background-color: #2F0F02;
+    background-image: url(/img/homeimg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
+.call1{
+    color: #C2C7BF;
+    border: 8px solid #304F69;
+    background-color: #2F0F02;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*css del footer*/
+footer{
+    background-color: #304F69;
+}
+.fa-brands{
+    font-size: 35px;
+    color: #C2C7BF;
+}
+.fa-brands:hover{
+    color: #2f0f02
+}
+.footerlogo{
+    font-size: 35px;
+    color: #2F0F02;
+    background-color: transparent;
+}
+.footerlogo:hover{
+    color: #C2C7BF;
+}
+
+

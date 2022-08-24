@@ -30,14 +30,29 @@ a{
     color: #2F0F02
 }
 /*css del main*/
-main{
+.main1{
     background-image: url(/img/homeimg.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
+.main2{
+    background-image: url(../img/dndcards.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 .call1{
+    color: #C2C7BF;
+    border: 8px solid #304F69;
+    background-color: #2F0F02;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.call2{
     color: #C2C7BF;
     border: 8px solid #304F69;
     background-color: #2F0F02;

@@ -1,3 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+header {
+  background-color: #C2C7BF;
+}
+header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2F0F02;
+  padding-left: 3px;
+}
+header i {
+  color: #304F69;
+  background-color: transparent;
+  font-size: 35px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.navbar-toggler {
+  background-color: #2F0F02;
+}
+
+.fa-solid:hover {
+  color: #2F0F02;
+}
+
+a {
+  text-decoration: none;
+  color: #2F0F02;
+}
+
+main {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+main .call {
+  color: #C2C7BF;
+  border: 8px solid #304F69;
+  background-color: #2F0F02;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.main1 {
+  background-image: url(../img/homeimg.jpg);
+}
+
+.main2 {
+  background-image: url(../img/dndcards.jpg);
+}
+
+.main3 {
+  background-image: url(../img/manualsandice.jpeg);
+}
+
+footer {
+  background-color: #304F69;
+}
+footer .fa-brands {
+  font-size: 35px;
+  color: #C2C7BF;
+}
+footer .fa-brands:hover {
+  color: #2F0F02;
+}
+footer .footerlogo {
+  font-size: 35px;
+  color: #2F0F02;
+  background-color: transparent;
+}
+footer .footerlogo {
+  color: #C2C7BF;
+}
+
+.form-label {
+  color: black;
+  background-color: #C2C7BF;
+}
 
 /*# sourceMappingURL=estilos.css.map */

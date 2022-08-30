@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$color1: #C2C7BF;
+$color2: #304F69;
+$color3: #2F0F02;
+$font1: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+header{
+    background-color: $color1;
+    
+    h1{
+        font-family: $font1;
+        color: $color3;
+        padding-left: 3px;
+    }
+
+    i{
+        color: $color2;
+        background-color: transparent;
+        font-size: 35px;
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+}
+.navbar-toggler{
+    background-color: $color3;
+}
+.fa-solid:hover{
+    color: $color3;
+}
+a{
+    text-decoration: none;
+    color: $color3;
+}
+main{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    .call{
+        color: #C2C7BF;
+        border: 8px solid #304F69;
+        background-color: #2F0F02;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+}
+.main1{
+    background-image: url(../img/homeimg.jpg);
+}
+.main2{
+    background-image: url(../img/dndcards.jpg);
+}
+.main3{
+    background-image: url(../img/manualsandice.jpeg);
+}
+footer{
+    background-color: $color2;
+    .fa-brands{
+        font-size: 35px;
+        color: $color1;
+    }
+    .fa-brands:hover{
+        color: $color3;
+    }
+    .footerlogo{
+        font-size: 35px;
+        color: $color3;
+        background-color: transparent;
+    }
+    .footerlogo{
+        color: $color1;
+    }
+}
+.form-label{
+    color: black;
+    background-color: $color1;
+}

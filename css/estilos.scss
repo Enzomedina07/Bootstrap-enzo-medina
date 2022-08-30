@@ -7,6 +7,9 @@ $color1: #C2C7BF;
 $color2: #304F69;
 $color3: #2F0F02;
 $font1: Verdana, Geneva, Tahoma, sans-serif;
+$home: url(../img/homeimg.jpg);
+$aboutus: url(../img/dndcards.jpg);
+$contact: url(../img/manualsandice.jpeg);
 
 
 
@@ -43,22 +46,22 @@ main{
     background-size: cover;
     overflow: hidden;
     .call{
-        color: #C2C7BF;
-        border: 8px solid #304F69;
-        background-color: #2F0F02;
+        color: $color1;
+        border: 8px solid $color2;
+        background-color: $color3;
         padding: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $font1;
         text-align: center;
     }
 }
 .main1{
-    background-image: url(../img/homeimg.jpg);
+    background-image: $home
 }
 .main2{
-    background-image: url(../img/dndcards.jpg);
+    background-image: $aboutus
 }
 .main3{
-    background-image: url(../img/manualsandice.jpeg);
+    background-image: $contact
 }
 footer{
     background-color: $color2;

@@ -41,10 +41,6 @@ a{
     color: $color3;
 }
 main{
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
     .call{
         color: $color1;
         border: 8px solid $color2;
@@ -55,13 +51,32 @@ main{
     }
 }
 .main1{
-    background-image: $home
+    background-image: $home;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 .main2{
-    background-image: $aboutus
+    background-image: $aboutus;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 .main3{
-    background-image: $contact
+    background-image: $contact;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.main4{
+    height: 100vh;
+    overflow: auto;
+    background-image: url(../img/dicesproduct.jpg);
+    background-size: cover;
+    background-position:center;
 }
 footer{
     background-color: $color2;
@@ -84,4 +99,10 @@ footer{
 .form-label{
     color: black;
     background-color: $color1;
+}
+img{
+    border: 2px solid #304F69;
+}
+img:hover{
+    transform: scale(1.1);
 }

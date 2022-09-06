@@ -33,12 +33,6 @@ a {
   color: #2F0F02;
 }
 
-main {
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-}
 main .call {
   color: #C2C7BF;
   border: 8px solid #304F69;
@@ -50,14 +44,34 @@ main .call {
 
 .main1 {
   background-image: url(../img/homeimg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .main2 {
   background-image: url(../img/dndcards.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .main3 {
   background-image: url(../img/manualsandice.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main4 {
+  height: 100vh;
+  overflow: auto;
+  background-image: url(../img/dicesproduct.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
@@ -82,6 +96,14 @@ footer .footerlogo {
 .form-label {
   color: black;
   background-color: #C2C7BF;
+}
+
+img {
+  border: 2px solid #304F69;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=estilos.css.map */

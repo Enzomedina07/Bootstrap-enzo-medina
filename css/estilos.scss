@@ -11,8 +11,6 @@ $home: url(../img/homeimg.jpg);
 $aboutus: url(../img/dndcards.jpg);
 $contact: url(../img/manualsandice.jpeg);
 
-
-
 header{
     background-color: $color1;
     
@@ -50,30 +48,27 @@ main{
         text-align: center;
     }
 }
-@mixin main-style{
+@mixin main-style ($overflow){
     height: 100vh;
     background-position: center;
     background-size: cover;
+    overflow: $overflow;
 }
 .main1{
     background-image: $home;
-    overflow: hidden;
-    @include main-style();
+    @include main-style(hidden);
 }
 .main2{
     background-image: $aboutus;
-    overflow: hidden;
-    @include main-style();
+    @include main-style(hidden);
 }
 .main3{
     background-image: $contact;
-    overflow: hidden;
-    @include main-style();
+    @include main-style(hidden);
 }
 .main4{
-    overflow: auto;
     background-image: url(../img/dicesproduct.jpg);
-    @include main-style();
+    @include main-style(auto);
 }
 footer{
     background-color: $color2;

@@ -43,35 +43,35 @@ main .call {
 }
 
 .main1 {
-  background-image: url(../img/homeimg.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
   overflow: hidden;
+  background-image: url(../img/homeimg.jpg);
 }
 
 .main2 {
-  background-image: url(../img/dndcards.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
   overflow: hidden;
+  background-image: url(../img/dndcards.jpg);
 }
 
 .main3 {
-  background-image: url(../img/manualsandice.jpeg);
   height: 100vh;
   background-position: center;
   background-size: cover;
   overflow: hidden;
+  background-image: url(../img/manualsandice.jpeg);
 }
 
 .main4 {
-  background-image: url(../img/dicesproduct.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
   overflow: auto;
+  background-image: url(../img/dicesproduct.jpg);
 }
 
 footer {

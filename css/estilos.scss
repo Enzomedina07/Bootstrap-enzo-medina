@@ -10,6 +10,7 @@ $font1: Verdana, Geneva, Tahoma, sans-serif;
 $home: url(../img/homeimg.jpg);
 $aboutus: url(../img/dndcards.jpg);
 $contact: url(../img/manualsandice.jpeg);
+$products: url(../img/dicesproduct.jpg);
 
 header{
     background-color: $color1;
@@ -48,27 +49,24 @@ main{
         text-align: center;
     }
 }
-@mixin main-style ($overflow){
+@mixin main-style ($overflow, $image){
     height: 100vh;
     background-position: center;
     background-size: cover;
     overflow: $overflow;
+    background-image: $image
 }
 .main1{
-    background-image: $home;
-    @include main-style(hidden);
+    @include main-style(hidden, $home);
 }
 .main2{
-    background-image: $aboutus;
-    @include main-style(hidden);
+    @include main-style(hidden ,$aboutus);
 }
 .main3{
-    background-image: $contact;
-    @include main-style(hidden);
+    @include main-style(hidden, $contact);
 }
 .main4{
-    background-image: url(../img/dicesproduct.jpg);
-    @include main-style(auto);
+    @include main-style(auto, $products);
 }
 footer{
     background-color: $color2;

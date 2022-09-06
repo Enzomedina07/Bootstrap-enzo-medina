@@ -50,33 +50,30 @@ main{
         text-align: center;
     }
 }
-.main1{
-    background-image: $home;
+@mixin main-style{
     height: 100vh;
     background-position: center;
     background-size: cover;
+}
+.main1{
+    background-image: $home;
     overflow: hidden;
+    @include main-style();
 }
 .main2{
     background-image: $aboutus;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
     overflow: hidden;
+    @include main-style();
 }
 .main3{
     background-image: $contact;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
     overflow: hidden;
+    @include main-style();
 }
 .main4{
-    height: 100vh;
     overflow: auto;
     background-image: url(../img/dicesproduct.jpg);
-    background-size: cover;
-    background-position:center;
+    @include main-style();
 }
 footer{
     background-color: $color2;

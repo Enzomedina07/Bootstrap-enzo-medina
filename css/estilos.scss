@@ -89,8 +89,19 @@ footer{
     color: black;
     background-color: $color1;
 }
-img{
-    border: 2px solid #304F69;
+
+$map: (
+    2px: $color1,
+    3px: $color2,
+    4px: $color3,
+
+    );
+
+@each $px, $color in $map {
+    .btn--#{$px} {
+        border: $px solid;
+        border-color: $color;
+    }
 }
 img:hover{
     transform: scale(1.1);

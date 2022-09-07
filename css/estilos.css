@@ -77,16 +77,14 @@ main .call {
 footer {
   background-color: #304F69;
 }
-footer .fa-brands {
+footer .fa-brands, footer .footerlogo {
   font-size: 35px;
   color: #C2C7BF;
 }
-footer .fa-brands:hover {
+footer .fa-brands:hover, footer .footerlogo:hover {
   color: #2F0F02;
 }
 footer .footerlogo {
-  font-size: 35px;
-  color: #2F0F02;
   background-color: transparent;
 }
 footer .footerlogo {

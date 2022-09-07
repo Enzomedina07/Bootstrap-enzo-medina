@@ -78,8 +78,7 @@ footer{
         color: $color3;
     }
     .footerlogo{
-        font-size: 35px;
-        color: $color3;
+        @extend .fa-brands;
         background-color: transparent;
     }
     .footerlogo{

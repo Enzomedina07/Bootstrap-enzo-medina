@@ -74,6 +74,15 @@ main .call {
   background-image: url(../img/dicesproduct.jpg);
 }
 
+.main5 {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url(../img/home2.jpg);
+  border-top: #304F69 solid 30px;
+}
+
 footer {
   background-color: #304F69;
 }
@@ -96,6 +105,7 @@ footer .footerlogo {
   background-color: #C2C7BF;
 }
 
+/*Map para cambiar el borde las imagenes*/
 .btn--2px {
   border: 2px solid;
   border-color: #C2C7BF;
@@ -115,4 +125,6 @@ img:hover {
   transform: scale(1.1);
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.carousel-inner img {
+  margin: auto;
+}/*# sourceMappingURL=estilos.css.map */

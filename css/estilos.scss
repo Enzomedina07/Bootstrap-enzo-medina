@@ -11,6 +11,7 @@ $home: url(../img/homeimg.jpg);
 $aboutus: url(../img/dndcards.jpg);
 $contact: url(../img/manualsandice.jpeg);
 $products: url(../img/dicesproduct.jpg);
+$home2: url(../img/home2.jpg);
 
 header{
     background-color: $color1;
@@ -49,24 +50,28 @@ main{
         text-align: center;
     }
 }
-@mixin main-style ($overflow, $image){
-    height: 100vh;
+@mixin main-style ($overflow, $image, $height){
+    height: $height;
     background-position: center;
     background-size: cover;
     overflow: $overflow;
     background-image: $image
 }
 .main1{
-    @include main-style(hidden, $home);
+    @include main-style(hidden, $home, 100vh);
 }
 .main2{
-    @include main-style(hidden ,$aboutus);
+    @include main-style(hidden ,$aboutus, 100vh);
 }
 .main3{
-    @include main-style(hidden, $contact);
+    @include main-style(hidden, $contact, 100vh);
 }
 .main4{
-    @include main-style(auto, $products);
+    @include main-style(auto, $products, 100vh);
+}
+.main5{
+    @include main-style(hidden,$home2 ,100vh );
+    border-top: #304F69 solid 30px;
 }
 footer{
     background-color: $color2;
@@ -89,7 +94,7 @@ footer{
     color: black;
     background-color: $color1;
 }
-
+/*Map para cambiar el borde las imagenes*/
 $map: (
     2px: $color1,
     3px: $color2,
@@ -105,4 +110,7 @@ $map: (
 }
 img:hover{
     transform: scale(1.1);
+}
+.carousel-inner img {
+    margin: auto;
 }

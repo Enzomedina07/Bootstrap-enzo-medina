@@ -99,7 +99,6 @@ $map: (
     2px: $color1,
     3px: $color2,
     4px: $color3,
-
     );
 
 @each $px, $color in $map {
@@ -108,9 +107,8 @@ $map: (
         border-color: $color;
     }
 }
+
 img:hover{
     transform: scale(1.1);
 }
-.carousel-inner img {
-    margin: auto;
-}
+

@@ -31,7 +31,7 @@ header{
     }
 }
 .navbar-toggler{
-    background-color: $color3;
+    background-color: $color2;
 }
 .fa-solid:hover{
     color: $color3;
@@ -39,6 +39,9 @@ header{
 a{
     text-decoration: none;
     color: $color3;
+}
+.products{
+    color: $color2;
 }
 main{
     .call{
@@ -109,6 +112,7 @@ $map: (
 }
 
 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    border: solid 10px $color2;
 }
 

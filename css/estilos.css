@@ -21,7 +21,7 @@ header i {
 }
 
 .navbar-toggler {
-  background-color: #2F0F02;
+  background-color: #304F69;
 }
 
 .fa-solid:hover {
@@ -33,6 +33,10 @@ a {
   color: #2F0F02;
 }
 
+.products {
+  color: #304F69;
+}
+
 main .call {
   color: #C2C7BF;
   border: 8px solid #304F69;
@@ -42,6 +46,7 @@ main .call {
   text-align: center;
 }
 
+/*mixin para evitar repeticion de codigo en los main */
 .main1 {
   height: 100vh;
   background-position: center;
@@ -122,5 +127,6 @@ footer .footerlogo {
 }
 
 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  border: solid 10px #304F69;
 }/*# sourceMappingURL=estilos.css.map */

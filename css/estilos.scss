@@ -49,7 +49,7 @@ main{
         font-family: $font1;
         text-align: center;
     }
-}
+} /*mixin para evitar repeticion de codigo en los main */
 @mixin main-style ($overflow, $image, $height){
     height: $height;
     background-position: center;

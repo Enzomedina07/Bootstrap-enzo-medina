@@ -66,7 +66,7 @@ function agregarCarrito(productoComprado){
     //uso sweet alert para hacer las notificaciones al usuario
     Swal.fire({
         title: productoComprado.nombre,
-        text: 'Agregado al carrito',
+        text: 'You found this loot in a goblin cave',
         imageUrl: productoComprado.foto,
         imageWidth: 225,
         imageHeight: 300,

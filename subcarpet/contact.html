@@ -44,15 +44,14 @@
         </div>
         <div class="pt-3 pb-2 row px-2 col-md-6 col-xl-4">
             <label for="formControlInput" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
             <label for="formControlInput" class="form-label">Name</label>
-            <input type="name" class="form-control" id="formControlInput" placeholder="name">
+            <input type="text" class="form-control" id="name" placeholder="name">
             <label for="formControlInput" class="form-label">Surname</label>
-            <input type="surname" class="form-control" id="formControlInput" placeholder="surname">
+            <input type="text" class="form-control" id="surname" placeholder="surname">
             <label for="colorInput" class="form-label">Favorite Color</label>
-            <input type="color" class="form-control form-control-color" id="colorInput" value="#563d7c" title="Choose your color">
             <div class="col-12 mt-3">
-                <button id="submit" class="btn btn-primary" type="submit">Submit form</button>
+                <button id="submit" class="btn btn-primary" type="submit" onclick="convertir()">Submit form</button>
             </div>
         </div>
     </main>

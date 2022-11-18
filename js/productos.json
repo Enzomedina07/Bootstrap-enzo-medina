@@ -1,0 +1,6 @@
+[
+    { "id": 1,  "producto": "Blue dice", "precio": 1500, "foto":"../img/bluedice.png" },
+    {  "id": 2,  "producto": "Gold dice", "precio": 150, "foto":"../img/goldendice.png" },
+    {  "id": 3,  "producto": "Beholder"  , "precio": 500, "foto":"../img/beholder.png"},
+    {  "id": 4,  "producto": "Metal dice" , "precio": 3000, "foto":"../img/dices.png"}
+]
